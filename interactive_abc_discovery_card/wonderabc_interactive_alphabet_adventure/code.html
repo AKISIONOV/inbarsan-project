@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&amp;family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-error":"#ffffff","secondary":"#7c5800","primary":"#006590","primary-fixed-dim":"#88ceff","on-primary-container":"#004665","on-secondary-fixed":"#271900","tertiary-container":"#ff87b8","on-background":"#0b1b35","on-error-container":"#93000a","on-secondary":"#ffffff","inverse-on-surface":"#ecf0ff","secondary-fixed-dim":"#ffba20","surface-variant":"#d7e3ff","error-container":"#ffdad6","on-tertiary":"#ffffff","outline":"#6e7881","on-tertiary-container":"#83004c","secondary-fixed":"#ffdea8","on-secondary-container":"#6b4b00","tertiary-fixed-dim":"#ffb0cd","on-primary":"#ffffff","on-primary-fixed-variant":"#004c6e","on-tertiary-fixed":"#3e0021","surface-container-highest":"#d7e3ff","surface-container-lowest":"#ffffff","surface-container":"#e8eeff","surface":"#f9f9ff","on-secondary-fixed-variant":"#5e4200","surface-container-low":"#f1f3ff","inverse-primary":"#88ceff","surface-dim":"#cbdafc","on-tertiary-fixed-variant":"#8d0052","surface-tint":"#006590","inverse-surface":"#21304b","primary-container":"#2bb8ff","on-surface":"#0b1b35","primary-fixed":"#c8e6ff","secondary-container":"#feb700","on-primary-fixed":"#001e2e","surface-bright":"#f9f9ff","on-surface-variant":"#3e4850","tertiary":"#b2196c","error":"#ba1a1a","background":"#f9f9ff","surface-container-high":"#dfe8ff","tertiary-fixed":"#ffd9e4","outline-variant":"#bdc8d2"},"borderRadius":{"DEFAULT":"1rem","lg":"2rem","xl":"3rem","full":"9999px"},"spacing":{"touch-min":"3.5rem","margin-mobile":"1rem","space-md":"1rem","space-2xl":"3rem","space-sm":"0.75rem","gutter-desktop":"2rem","gutter-mobile":"1rem","margin-desktop":"3rem","space-2xs":"0.25rem","space-xl":"2rem","gutter-tablet":"1.5rem","margin-tablet":"2rem","space-lg":"1.5rem","space-xs":"0.5rem","touch-lg":"4.5rem"},"fontFamily":{"body-md":["Quicksand"],"label-sm":["Quicksand"],"phonics-callout":["Comfortaa"],"headline-md":["Comfortaa"],"label-lg":["Quicksand"],"label-md":["Quicksand"],"display-hero-mobile":["Comfortaa"],"headline-sm":["Comfortaa"],"body-sm":["Quicksand"],"body-lg":["Quicksand"],"headline-lg":["Comfortaa"],"headline-lg-mobile":["Comfortaa"],"display-hero":["Comfortaa"]},"fontSize":{"body-md":["18px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"500"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"700"}],"phonics-callout":["40px",{"lineHeight":"48px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"700"}],"label-lg":["16px",{"lineHeight":"22px","letterSpacing":"0.03em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"700"}],"display-hero-mobile":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"body-sm":["15px",{"lineHeight":"22px","fontWeight":"600"}],"body-lg":["20px",{"lineHeight":"30px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"44px","fontWeight":"700"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"700"}],"display-hero":["48px",{"lineHeight":"56px","fontWeight":"700"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm shrink-0"><img alt="WonderABC Kids Safari Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgjTi_sdjW0t9GLMXbrVL3xsYgychocfl-k3-dn1v71UVMr_COz8R0h8sWujfoHcSRMMP-ZoQ1ePJGXl_El4JQaKHCaZ_17gLoTytts4_1rS6qSSe6r_DuvK2N9BOZ48xXa9xFAiR1GRdciDSxLSliNXqNAkxt4O-5AQDlYyrWINhrkhcvKdycVxJPqe5T3J4x4z7XR-Yq1lsILaatZM7TOOLekPp0MzOohvytnY7dAzMUq4G_Jrop"/><span class="font-headline-sm text-headline-sm text-primary tracking-wide">WonderABC</span><span class="hidden lg:inline-block font-label-md text-label-md text-on-surface-variant bg-surface-container px-space-sm py-space-2xs rounded-full">AlphaQuest Explorer</span></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary text-on-primary font-bold shadow-[0_4px_0_#004665]"><a aria-current="page" class="px-space-md py-space-xs rounded-full transition-all bg-primary text-on-primary font-bold shadow-[0_4px_0_#004665]" data-path="alphabet-safari" href="#">Alphabet Safari</a><a class="px-space-md py-space-xs rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="word-detective-quiz" href="#">Word Detective Quiz</a><a class="px-space-md py-space-xs rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="audio-phonics-lab" href="#">Audio Phonics Lab</a><a class="px-space-md py-space-xs rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="my-trophy-case" href="#">My Trophy Case</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="flex items-center gap-space-xs bg-secondary-fixed text-on-secondary-fixed px-space-sm py-space-2xs rounded-full shadow-[0_3px_0_#ffba20]"><span class="font-label-lg text-label-lg">⭐ 240 Stars</span></div><div class="hidden sm:flex items-center gap-space-xs bg-tertiary-fixed text-on-tertiary-fixed px-space-sm py-space-2xs rounded-full shadow-[0_3px_0_#ffb0cd]"><span class="font-label-lg text-label-lg">🔥 5 Days!</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Explorer Welcome Banner & Mission Hub -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-md md:py-space-lg">
+<div class="relative overflow-hidden rounded-xl bg-surface-container p-space-md md:p-space-xl shadow-[0_8px_0_#d7e3ff] flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Decorative Whimsical SVG Backdrop Blobs -->
+<div class="absolute -right-8 -bottom-10 w-48 h-48 rounded-full bg-primary-fixed opacity-40 pointer-events-none blur-xl"></div>
+<div class="absolute -left-10 -top-8 w-40 h-40 rounded-full bg-secondary-fixed opacity-40 pointer-events-none blur-lg"></div>
+<!-- Mascot & Message -->
+<div class="flex items-center gap-space-md z-10">
+<div class="relative shrink-0 flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-secondary-container shadow-[0_6px_0_#7c5800] transform hover:rotate-6 transition-transform">
+<span class="text-4xl select-none animate-bounce">⭐</span>
+<span class="absolute -bottom-1 -right-1 bg-surface-container-lowest text-primary rounded-full p-1 shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">explore</span>
+</span>
+</div>
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm bg-primary text-on-primary px-space-sm py-space-2xs rounded-full shadow-[0_2px_0_#004665]">MISSION #26</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-space-sm py-space-2xs rounded-full">Safari Level 4 Explorer</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">AlphaQuest Safari Lab</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Tap any mystery card to unleash voice phonics, decode animal superpowers, and collect sparkle badges!
+          </p>
+</div>
+</div>
+<!-- Live Interactive Star Counter Widget -->
+<div class="shrink-0 flex items-center gap-space-sm z-10 w-full md:w-auto justify-between md:justify-end">
+<div class="bg-surface-container-lowest px-space-md py-space-sm rounded-lg shadow-[0_4px_0_#d7e3ff] flex items-center gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Safari Stars</span>
+<span class="font-headline-md text-headline-md text-secondary" id="global-star-count">240</span>
+</div>
+<button aria-label="Tap for surprise sparkle confetti" class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-[0_4px_0_#6b4b00] active:translate-y-1 active:shadow-[0_1px_0_#6b4b00] transition-all" id="sparkle-btn">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Filter Pills Nav -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-xs">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs select-none">
+<span class="font-label-md text-label-md text-on-surface-variant shrink-0 mr-space-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">tune</span> Trail Filter:
+      </span>
+<button class="filter-pill active px-space-md py-space-xs rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-[0_4px_0_#004665] active:translate-y-1 transition-all shrink-0" data-cat="all" onclick="filterLetters('all')">
+        🌈 All 26 Letters
+      </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface shadow-[0_4px_0_#cbdafc] hover:bg-surface-variant active:translate-y-1 transition-all shrink-0" data-cat="animals" onclick="filterLetters('animals')">
+        🦁 Safari Animals
+      </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface shadow-[0_4px_0_#cbdafc] hover:bg-surface-variant active:translate-y-1 transition-all shrink-0" data-cat="space" onclick="filterLetters('space')">
+        🚀 Space &amp; Wonder
+      </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface shadow-[0_4px_0_#cbdafc] hover:bg-surface-variant active:translate-y-1 transition-all shrink-0" data-cat="nature" onclick="filterLetters('nature')">
+        🌿 Earth &amp; Nature
+      </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface shadow-[0_4px_0_#cbdafc] hover:bg-surface-variant active:translate-y-1 transition-all shrink-0" data-cat="inventions" onclick="filterLetters('inventions')">
+        ⚡ Inventions
+      </button>
+</div>
+</section>
+<!-- Big Interactive Title Card Spotlight (Hero Dynamic Module) -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-md">
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md md:p-space-xl shadow-[0_12px_0_#d7e3ff] transition-all" id="spotlight-card">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Left: Huge Tactile 3D Block Visual & Audio Cue -->
+<div class="lg:col-span-4 flex flex-col items-center justify-center p-space-lg bg-surface-container-low rounded-lg relative overflow-hidden">
+<div class="absolute top-space-sm left-space-sm">
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-space-sm py-space-2xs rounded-full shadow-sm">
+              PHONICS ACTIVE
+            </span>
+</div>
+<!-- Tactile 3D Letter Cubes Inspired by visual cue -->
+<div class="relative my-space-md">
+<div class="w-32 h-32 md:w-40 md:h-40 rounded-lg bg-secondary-container flex flex-col items-center justify-center shadow-[0_12px_0_#6b4b00] transform transition-transform hover:scale-105 active:scale-95 cursor-pointer" id="spotlight-badge" onclick="speakCurrentWord()">
+<span class="font-display-hero text-display-hero text-on-secondary-container drop-shadow-sm leading-none" id="spotlight-letter-primary">Aa</span>
+<span class="font-label-sm text-label-sm text-on-secondary-container/80 tracking-widest mt-1" id="spotlight-sound-symbol">/æ/ as in astronaut</span>
+</div>
+</div>
+<!-- Big Audio Button -->
+<button class="w-full h-touch-min bg-primary text-on-primary rounded-full font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-[0_6px_0_#004665] active:translate-y-1 active:shadow-[0_2px_0_#004665] transition-all" id="main-audio-btn" onclick="speakCurrentWord()">
+<span class="material-symbols-outlined text-2xl" id="speaker-icon">volume_up</span>
+<span id="audio-btn-label">Hear Letter Sound &amp; Word</span>
+</button>
+</div>
+<!-- Center & Right: Dynamic Discovery Content -->
+<div class="lg:col-span-8 flex flex-col justify-between h-full gap-space-md">
+<!-- Card Header & Word Headline -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-space-sm py-space-2xs rounded-full">Curiosity Discovery Card</span>
+<span class="font-label-md text-label-md text-secondary bg-secondary-fixed px-space-sm py-space-2xs rounded-full" id="spotlight-category">Space &amp; Science</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-space-2xs" id="spotlight-title">
+                A is for <span class="text-primary underline decoration-primary-container decoration-4">Astronaut</span>
+</h2>
+</div>
+<div class="flex items-center gap-space-xs self-start sm:self-center">
+<span class="text-5xl transform hover:scale-125 transition-transform cursor-pointer" id="spotlight-emoji" onclick="speakCurrentWord()">🚀</span>
+</div>
+</div>
+<!-- Syllable Rhythm Pad -->
+<div class="p-space-sm bg-surface-container rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-xl">graphic_eq</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Syllable Tap:</span>
+<div class="flex items-center gap-space-xs" id="spotlight-syllables">
+<button class="px-space-sm py-space-2xs bg-surface-container-lowest rounded-full font-headline-sm text-headline-sm text-primary shadow-[0_3px_0_#d7e3ff] active:translate-y-1" onclick="speakSyllable('As')">As</button>
+<span class="text-on-surface-variant font-bold">•</span>
+<button class="px-space-sm py-space-2xs bg-surface-container-lowest rounded-full font-headline-sm text-headline-sm text-primary shadow-[0_3px_0_#d7e3ff] active:translate-y-1" onclick="speakSyllable('tro')">tro</button>
+<span class="text-on-surface-variant font-bold">•</span>
+<button class="px-space-sm py-space-2xs bg-surface-container-lowest rounded-full font-headline-sm text-headline-sm text-primary shadow-[0_3px_0_#d7e3ff] active:translate-y-1" onclick="speakSyllable('naut')">naut</button>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant italic">Tap each syllable chunk!</span>
+</div>
+<!-- Secret Curiosity Fun Fact Box -->
+<div class="bg-surface-container-high rounded-lg p-space-md shadow-[0_4px_0_#cbdafc] flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0 shadow-sm text-xl">
+              💡
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-secondary">Safari Secret Fact:</span>
+<p class="font-body-md text-body-md text-on-surface mt-space-2xs" id="spotlight-fact">
+                Did you know? Astronauts grow up to 2 inches taller while floating in zero-gravity space because their spine gently stretches out!
+              </p>
+</div>
+</div>
+<!-- Companion Vocabulary Explorer -->
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-space-xs block">More words that start with this letter:</span>
+<div class="grid grid-cols-3 gap-space-sm" id="spotlight-companions">
+<button class="p-space-xs rounded-lg bg-surface-container-low hover:bg-surface-variant transition-colors flex items-center gap-space-xs text-left shadow-[0_3px_0_#d7e3ff]" onclick="switchCompanionWord('Apple 🍎', 'Ap-ple', 'Apples float in water because 25% of their volume is actually air!')">
+<span class="text-2xl">🍎</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Apple</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Crisp fruit</span>
+</div>
+</button>
+<button class="p-space-xs rounded-lg bg-surface-container-low hover:bg-surface-variant transition-colors flex items-center gap-space-xs text-left shadow-[0_3px_0_#d7e3ff]" onclick="switchCompanionWord('Alligator 🐊', 'Al-li-ga-tor', 'Alligators have lived on Earth for over 150 million years—older than T-Rex!')">
+<span class="text-2xl">🐊</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Alligator</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">River scout</span>
+</div>
+</button>
+<button class="p-space-xs rounded-lg bg-surface-container-low hover:bg-surface-variant transition-colors flex items-center gap-space-xs text-left shadow-[0_3px_0_#d7e3ff]" onclick="switchCompanionWord('Aeroplane ✈️', 'Aer-o-plane', 'Aeroplanes use curved wings called airfoils to glide smoothly on invisible air currents!')">
+<span class="text-2xl">✈️</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Aeroplane</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">Sky glider</span>
+</div>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Curiosity Detective Mini-Quiz Bar -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-sm">
+<div class="bg-tertiary-fixed text-on-tertiary-fixed rounded-xl p-space-md md:p-space-lg shadow-[0_8px_0_#ffb0cd] flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="text-3xl">🕵️‍♂️</span>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary bg-surface-container-lowest px-space-xs py-space-2xs rounded">Detective Mystery Clue</span>
+<p class="font-headline-sm text-headline-sm text-on-tertiary-fixed mt-1" id="quiz-question">
+            "Which letter starts with a giant gray gentle animal that loves water and has a super long trunk?"
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 w-full md:w-auto justify-end" id="quiz-options">
+<button class="quiz-btn flex-1 md:flex-initial px-space-lg py-space-sm rounded-full font-headline-sm text-headline-sm bg-surface-container-lowest text-primary shadow-[0_4px_0_#d7e3ff] active:translate-y-1" onclick="handleQuizAnswer(this, false, 'G is for Giraffe! Giraffes have super long necks, but not trunks!')">
+          G
+        </button>
+<button class="quiz-btn flex-1 md:flex-initial px-space-lg py-space-sm rounded-full font-headline-sm text-headline-sm bg-surface-container-lowest text-primary shadow-[0_4px_0_#d7e3ff] active:translate-y-1" onclick="handleQuizAnswer(this, true, 'Bingo! E is for Elephant! Elephants use their trunks like a hand, snorkel, and trumpet!')">
+          E
+        </button>
+<button class="quiz-btn flex-1 md:flex-initial px-space-lg py-space-sm rounded-full font-headline-sm text-headline-sm bg-surface-container-lowest text-primary shadow-[0_4px_0_#d7e3ff] active:translate-y-1" onclick="handleQuizAnswer(this, false, 'D is for Dolphin! Dolphins are super smart swimmers with fins!')">
+          D
+        </button>
+</div>
+</div>
+<!-- Quiz Feedback popup / toast message -->
+<div class="hidden mt-space-xs p-space-sm rounded-lg bg-surface-container font-body-md text-body-md text-on-surface shadow-sm transition-all flex items-center justify-between" id="quiz-feedback">
+<span id="quiz-feedback-text">Awesome job!</span>
+<button class="font-label-sm text-label-sm text-primary underline" onclick="document.getElementById('quiz-feedback').classList.add('hidden')">Dismiss</button>
+</div>
+</section>
+<!-- WonderABC 26-Letter Interactive Safari Grid -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">The 26 Safari Letter Vault</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tap any card to trigger Voice Phonics and inspect its safari secret!</p>
+</div>
+<div class="hidden sm:flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-3 h-3 rounded-full bg-secondary-container inline-block"></span> Click card to activate
+      </div>
+</div>
+<!-- The 26 Alphabet Cards Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-space-sm md:gap-space-md" id="alphabet-grid">
+<!-- Card A -->
+<div class="alpha-card active rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="space" data-emoji="🚀" data-fact="Astronauts grow up to 2 inches taller while floating in zero gravity!" data-letter="A" data-phonics="/æ/ as in astronaut" data-syllables="As·tro·naut" data-word="Astronaut" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Aa</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('A is for Astronaut', '🚀')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🚀</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Astronaut</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed-dim/30 rounded px-1 mt-1 truncate">Space Pioneer</span>
+</div>
+</div>
+<!-- Card B -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦋" data-fact="Butterflies taste sweet flower nectar with their tiny sensors on their feet!" data-letter="B" data-phonics="/b/ as in butterfly" data-syllables="But·ter·fly" data-word="Butterfly" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Bb</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('B is for Butterfly', '🦋')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦋</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Butterfly</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/40 rounded px-1 mt-1 truncate">Color Acrobat</span>
+</div>
+</div>
+<!-- Card C -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦎" data-fact="Chameleons can rotate both of their eyes in two completely different directions at the same time!" data-letter="C" data-phonics="/k/ as in chameleon" data-syllables="Cha·me·le·on" data-word="Chameleon" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Cc</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('C is for Chameleon', '🦎')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦎</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Chameleon</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Color Shifter</span>
+</div>
+</div>
+<!-- Card D -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐬" data-fact="Dolphins talk to each other using customized whistle names that last their whole lives!" data-letter="D" data-phonics="/d/ as in dolphin" data-syllables="Dol·phin" data-word="Dolphin" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Dd</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('D is for Dolphin', '🐬')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐬</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Dolphin</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/50 rounded px-1 mt-1 truncate">Ocean Whistler</span>
+</div>
+</div>
+<!-- Card E -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐘" data-fact="Elephants can hug each other with their trunks, which hold over 40,000 muscles!" data-letter="E" data-phonics="/ɛ/ as in elephant" data-syllables="El·e·phant" data-word="Elephant" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ee</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('E is for Elephant', '🐘')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐘</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Elephant</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Gentle Giant</span>
+</div>
+</div>
+<!-- Card F -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="nature" data-emoji="🪲" data-fact="Fireflies make 100% efficient light with zero heat loss—nature's coolest flashlights!" data-letter="F" data-phonics="/f/ as in firefly" data-syllables="Fire·fly" data-word="Firefly" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ff</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('F is for Firefly', '🪲')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🪲</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Firefly</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Glow Beetle</span>
+</div>
+</div>
+<!-- Card G -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦒" data-fact="A giraffe has a 20-inch bluish-purple tongue that protects it from sunburns while chewing leaves!" data-letter="G" data-phonics="/dʒ/ as in giraffe" data-syllables="Gi·raffe" data-word="Giraffe" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Gg</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('G is for Giraffe', '🦒')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦒</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Giraffe</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Sky Lookout</span>
+</div>
+</div>
+<!-- Card H -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="nature" data-emoji="🐦" data-fact="Hummingbirds are the only birds that can fly backwards, sideways, and even upside down!" data-letter="H" data-phonics="/h/ as in hummingbird" data-syllables="Hum·ming·bird" data-word="Hummingbird" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Hh</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('H is for Hummingbird', '🐦')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐦</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Hummingbird</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/40 rounded px-1 mt-1 truncate">Speed Flier</span>
+</div>
+</div>
+<!-- Card I -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦎" data-fact="Marine iguanas can hold their breath underwater for up to 30 minutes while snacking on algae!" data-letter="I" data-phonics="/ɪ/ as in iguana" data-syllables="I·gua·na" data-word="Iguana" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ii</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('I is for Iguana', '🦎')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦎</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Iguana</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Sunbather</span>
+</div>
+</div>
+<!-- Card J -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="nature" data-emoji="🪼" data-fact="Jellyfish have no brain, heart, or bones, yet they have danced in Earth's oceans for 500 million years!" data-letter="J" data-phonics="/dʒ/ as in jellyfish" data-syllables="Jel·ly·fish" data-word="Jellyfish" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Jj</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('J is for Jellyfish', '🪼')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🪼</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Jellyfish</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Sea Balloon</span>
+</div>
+</div>
+<!-- Card K -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐨" data-fact="Koalas sleep up to 20 hours a day high in eucalyptus tree forks!" data-letter="K" data-phonics="/k/ as in koala" data-syllables="Ko·a·la" data-word="Koala" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Kk</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('K is for Koala', '🐨')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐨</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Koala</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Tree Snuggler</span>
+</div>
+</div>
+<!-- Card L -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦁" data-fact="A lion's mighty roar can be heard across the savanna from 5 full miles away!" data-letter="L" data-phonics="/l/ as in lion" data-syllables="Li·on" data-word="Lion" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ll</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('L is for Lion', '🦁')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦁</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Lion</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Savanna King</span>
+</div>
+</div>
+<!-- Card M -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="space" data-emoji="🌙" data-fact="Footprints left by astronauts on the Moon will stay there for millions of years because there is no wind!" data-letter="M" data-phonics="/m/ as in moon" data-syllables="Moon" data-word="Moon" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Mm</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('M is for Moon', '🌙')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🌙</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Moon</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Night Glow</span>
+</div>
+</div>
+<!-- Card N -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦄" data-fact="The narwhal's horn is actually a spiral ivory tooth that can grow up to 10 feet long!" data-letter="N" data-phonics="/n/ as in narwhal" data-syllables="Nar·whal" data-word="Narwhal" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Nn</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('N is for Narwhal', '🦄')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦄</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Narwhal</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Sea Unicorn</span>
+</div>
+</div>
+<!-- Card O -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐙" data-fact="Octopuses have three hearts and their blood is royal ocean blue!" data-letter="O" data-phonics="/ɒ/ as in octopus" data-syllables="Oc·to·pus" data-word="Octopus" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Oo</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('O is for Octopus', '🐙')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐙</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Octopus</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/40 rounded px-1 mt-1 truncate">8 Arms Maestro</span>
+</div>
+</div>
+<!-- Card P -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐧" data-fact="Penguins propose to their best friends by searching the shore for the smoothest pebble!" data-letter="P" data-phonics="/p/ as in penguin" data-syllables="Pen·guin" data-word="Penguin" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Pp</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('P is for Penguin', '🐧')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐧</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Penguin</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Ice Swimmer</span>
+</div>
+</div>
+<!-- Card Q -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="space" data-emoji="✨" data-fact="Quasars are the brightest beacons in the entire universe—shining brighter than 1,000 galaxies!" data-letter="Q" data-phonics="/kw/ as in quasar" data-syllables="Qua·sar" data-word="Quasar" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Qq</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('Q is for Quasar', '✨')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">✨</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Quasar</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Cosmic Beacon</span>
+</div>
+</div>
+<!-- Card R -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="inventions" data-emoji="🤖" data-fact="NASA sends wheeled robots called rovers to dig for hidden ancient water on Mars!" data-letter="R" data-phonics="/r/ as in robot" data-syllables="Ro·bot" data-word="Robot" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Rr</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('R is for Robot', '🤖')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🤖</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Robot</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Smart Helper</span>
+</div>
+</div>
+<!-- Card S -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="space" data-emoji="☀️" data-fact="One million Earths could fit comfortably inside the giant fiery belly of our Sun!" data-letter="S" data-phonics="/s/ as in sun" data-syllables="Sun" data-word="Sun" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ss</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('S is for Sun', '☀️')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">☀️</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Sun</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Star Power</span>
+</div>
+</div>
+<!-- Card T -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="inventions" data-emoji="🔭" data-fact="The James Webb Telescope can peer back in time 13.5 billion years to see the first stars!" data-letter="T" data-phonics="/t/ as in telescope" data-syllables="Tel·e·scope" data-word="Telescope" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Tt</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('T is for Telescope', '🔭')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🔭</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Telescope</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Deep Stargazer</span>
+</div>
+</div>
+<!-- Card U -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🪶" data-fact="The Amazon umbrella bird puffs out a crest of feathers that looks just like a parasol hat!" data-letter="U" data-phonics="/ʌ/ as in umbrella" data-syllables="Um·brel·la" data-word="Umbrella Bird" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Uu</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('U is for Umbrella Bird', '🪶')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🪶</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Umbrella Bird</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Rainforest Hat</span>
+</div>
+</div>
+<!-- Card V -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="nature" data-emoji="🌋" data-fact="Underneath the Hawaiian sea, active underwater volcanoes create brand new islands!" data-letter="V" data-phonics="/v/ as in volcano" data-syllables="Vol·ca·no" data-word="Volcano" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Vv</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('V is for Volcano', '🌋')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🌋</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Volcano</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/40 rounded px-1 mt-1 truncate">Lava Mountain</span>
+</div>
+</div>
+<!-- Card W -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐋" data-fact="A blue whale's heart is the size of a golf cart and can weigh 400 pounds!" data-letter="W" data-phonics="/w/ as in whale" data-syllables="Whale" data-word="Whale" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Ww</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('W is for Whale', '🐋')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐋</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Whale</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Ocean Titan</span>
+</div>
+</div>
+<!-- Card X -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="inventions" data-emoji="🩻" data-fact="X-rays were discovered accidentally by a scientist playing with glowing light rays in a dark room!" data-letter="X" data-phonics="/ɛks/ as in x-ray" data-syllables="X-Ray" data-word="X-Ray" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Xx</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('X is for X-Ray', '🩻')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🩻</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">X-Ray</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary-fixed/40 rounded px-1 mt-1 truncate">Bone Camera</span>
+</div>
+</div>
+<!-- Card Y -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🐂" data-fact="Wild yaks thrive in freezing snow mountains up to 20,000 feet high with their warm shaggy coats!" data-letter="Y" data-phonics="/j/ as in yak" data-syllables="Yak" data-word="Yak" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Yy</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('Y is for Yak', '🐂')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🐂</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Yak</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/40 rounded px-1 mt-1 truncate">Snow Cruiser</span>
+</div>
+</div>
+<!-- Card Z -->
+<div class="alpha-card rounded-lg p-space-sm bg-surface-container-lowest shadow-[0_6px_0_#d7e3ff] hover:shadow-[0_8px_0_#88ceff] transition-all cursor-pointer flex flex-col justify-between group" data-cat="animals" data-emoji="🦓" data-fact="No two zebras have the exact same stripes—each pattern is completely unique like a human fingerprint!" data-letter="Z" data-phonics="/z/ as in zebra" data-syllables="Ze·bra" data-word="Zebra" onclick="selectAlphabetCard(this)">
+<div class="flex items-start justify-between">
+<span class="font-headline-lg text-headline-lg text-primary group-hover:scale-110 transition-transform">Zz</span>
+<button class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary shadow-[0_2px_0_#88ceff]" onclick="event.stopPropagation(); quickAudio('Z is for Zebra', '🦓')">
+<span class="material-symbols-outlined text-sm">volume_up</span>
+</button>
+</div>
+<div class="text-4xl my-space-xs text-center select-none transform group-hover:rotate-12 transition-transform">🦓</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Zebra</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/40 rounded px-1 mt-1 truncate">Stripe Wonder</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Safari Reward Milestone Trophy Shelf -->
+<section class="w-full max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop py-space-xl">
+<div class="rounded-xl bg-surface-container-low p-space-md md:p-space-lg shadow-[0_8px_0_#d7e3ff] flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center text-3xl shadow-[0_4px_0_#6b4b00]">
+          🏆
+        </div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Curiosity Champion Badge Unlocked!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">You investigated 26 letters! Ready for the Alphabet Speed Quiz Challenge?</p>
+</div>
+</div>
+<button class="px-space-xl h-touch-min rounded-full bg-secondary text-on-secondary font-label-lg text-label-lg shadow-[0_6px_0_#271900] active:translate-y-1 active:shadow-[0_2px_0_#271900] transition-all flex items-center gap-space-xs" onclick="triggerTrophyCelebration()">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span>Claim Safari Badge</span>
+</button>
+</div>
+</section>
+<!-- Sparkle Particle / Confetti Layer (Pure Vanilla JS Managed) -->
+<div class="fixed inset-0 pointer-events-none z-50 overflow-hidden" id="confetti-container"></div>
+</div>
+<script>
+  let activeLetterData = {
+    letter: 'A',
+    word: 'Astronaut',
+    syllables: 'As·tro·naut',
+    emoji: '🚀',
+    category: 'Space & Science',
+    fact: 'Astronauts grow up to 2 inches taller while floating in zero gravity space because their spine gently stretches out!',
+    phonics: '/æ/ as in astronaut'
+  };
+
+  function speakCurrentWord() {
+    const text = activeLetterData.letter + ' is for ' + activeLetterData.word + '! ' + activeLetterData.fact;
+    playSpeech(text);
+    animateSpeaker();
+  }
+
+  function quickAudio(phrase, emoji) {
+    playSpeech(phrase);
+    showToastFeedback(emoji + ' ' + phrase);
+  }
+
+  function speakSyllable(syllable) {
+    playSpeech(syllable);
+  }
+
+  function playSpeech(text) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.pitch = 1.2;
+      utterance.rate = 0.95;
+      window.speechSynthesis.speak(utterance);
+    }
+  }
+
+  function animateSpeaker() {
+    const icon = document.getElementById('speaker-icon');
+    const badge = document.getElementById('spotlight-badge');
+    if (icon) {
+      icon.classList.add('scale-125', 'text-secondary-fixed');
+      setTimeout(() => icon.classList.remove('scale-125', 'text-secondary-fixed'), 800);
+    }
+    if (badge) {
+      badge.classList.add('-rotate-3', 'scale-105');
+      setTimeout(() => badge.classList.remove('-rotate-3', 'scale-105'), 500);
+    }
+  }
+
+  function selectAlphabetCard(element) {
+    document.querySelectorAll('.alpha-card').forEach(c => {
+      c.classList.remove('ring-4', 'ring-primary', 'bg-surface-container');
+    });
+    element.classList.add('ring-4', 'ring-primary', 'bg-surface-container');
+
+    const letter = element.getAttribute('data-letter');
+    const word = element.getAttribute('data-word');
+    const syllables = element.getAttribute('data-syllables');
+    const emoji = element.getAttribute('data-emoji');
+    const fact = element.getAttribute('data-fact');
+    const phonics = element.getAttribute('data-phonics');
+    const cat = element.getAttribute('data-cat') || 'Discovery Safari';
+
+    activeLetterData = { letter, word, syllables, emoji, category: cat, fact, phonics };
+
+    // Update Spotlight card elements
+    document.getElementById('spotlight-letter-primary').innerText = letter + letter.toLowerCase();
+    document.getElementById('spotlight-sound-symbol').innerText = phonics;
+    document.getElementById('spotlight-title').innerHTML = letter + ' is for <span class="text-primary underline decoration-primary-container decoration-4">' + word + '</span>';
+    document.getElementById('spotlight-emoji').innerText = emoji;
+    document.getElementById('spotlight-fact').innerText = fact;
+    document.getElementById('spotlight-category').innerText = cat.charAt(0).toUpperCase() + cat.slice(1);
+
+    // Update syllables
+    const sylTokens = syllables.split('·');
+    const sylContainer = document.getElementById('spotlight-syllables');
+    sylContainer.innerHTML = '';
+    sylTokens.forEach((tok, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'px-space-sm py-space-2xs bg-surface-container-lowest rounded-full font-headline-sm text-headline-sm text-primary shadow-[0_3px_0_#d7e3ff] active:translate-y-1 transition-transform';
+      btn.innerText = tok;
+      btn.onclick = () => speakSyllable(tok);
+      sylContainer.appendChild(btn);
+
+      if (idx < sylTokens.length - 1) {
+        const dot = document.createElement('span');
+        dot.className = 'text-on-surface-variant font-bold';
+        dot.innerText = '•';
+        sylContainer.appendChild(dot);
+      }
+    });
+
+    speakCurrentWord();
+
+    // Smooth subtle scroll to spotlight if on mobile
+    if (window.innerWidth < 768) {
+      document.getElementById('spotlight-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function switchCompanionWord(nameWithEmoji, syllables, fact) {
+    const parts = nameWithEmoji.split(' ');
+    const word = parts[0];
+    const emoji = parts[1] || '🌟';
+    
+    document.getElementById('spotlight-title').innerHTML = activeLetterData.letter + ' is for <span class="text-primary underline decoration-primary-container decoration-4">' + word + '</span>';
+    document.getElementById('spotlight-emoji').innerText = emoji;
+    document.getElementById('spotlight-fact').innerText = fact;
+
+    playSpeech(word + '! ' + fact);
+  }
+
+  function filterLetters(category) {
+    const pills = document.querySelectorAll('.filter-pill');
+    pills.forEach(p => {
+      if (p.getAttribute('data-cat') === category) {
+        p.className = 'filter-pill active px-space-md py-space-xs rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-[0_4px_0_#004665] active:translate-y-1 transition-all shrink-0';
+      } else {
+        p.className = 'filter-pill px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface shadow-[0_4px_0_#cbdafc] hover:bg-surface-variant active:translate-y-1 transition-all shrink-0';
+      }
+    });
+
+    const cards = document.querySelectorAll('.alpha-card');
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-cat');
+      if (category === 'all' || cardCat === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function handleQuizAnswer(button, isCorrect, feedbackText) {
+    const fbBox = document.getElementById('quiz-feedback');
+    const fbText = document.getElementById('quiz-feedback-text');
+    fbBox.classList.remove('hidden');
+    fbText.innerText = feedbackText;
+
+    if (isCorrect) {
+      button.classList.add('bg-secondary-container', 'text-on-secondary-container', 'scale-110');
+      fbBox.classList.remove('bg-surface-container');
+      fbBox.classList.add('bg-secondary-fixed', 'text-on-secondary-fixed');
+      playSpeech('Hooray! ' + feedbackText);
+      incrementStars(15);
+      launchConfetti();
+    } else {
+      button.classList.add('shake-anim', 'bg-error-container', 'text-on-error-container');
+      fbBox.classList.remove('bg-secondary-fixed');
+      fbBox.classList.add('bg-surface-container');
+      playSpeech('Good try! ' + feedbackText);
+      setTimeout(() => button.classList.remove('shake-anim', 'bg-error-container', 'text-on-error-container'), 1200);
+    }
+  }
+
+  function incrementStars(amount) {
+    const el = document.getElementById('global-star-count');
+    let current = parseInt(el.innerText) || 240;
+    current += amount;
+    el.innerText = current;
+    el.classList.add('scale-125', 'text-secondary-fixed-dim');
+    setTimeout(() => el.classList.remove('scale-125', 'text-secondary-fixed-dim'), 600);
+  }
+
+  function triggerTrophyCelebration() {
+    incrementStars(50);
+    launchConfetti();
+    playSpeech('Congratulations! You earned the Curious Explorer Alpha Trophy!');
+    showToastFeedback('🏆 Safari Explorer Badge & +50 Stars added to your Trophy Case!');
+  }
+
+  function showToastFeedback(msg) {
+    const toast = document.createElement('div');
+    toast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 bg-on-background text-inverse-on-surface px-space-md py-space-sm rounded-full font-label-md text-label-md shadow-2xl z-50 flex items-center gap-2 animate-bounce';
+    toast.innerText = msg;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 2800);
+  }
+
+  function launchConfetti() {
+    const container = document.getElementById('confetti-container');
+    const colors = ['#2bb8ff', '#feb700', '#ff87b8', '#1dd38d', '#ffdea8'];
+    for (let i = 0; i < 40; i++) {
+      const piece = document.createElement('div');
+      piece.style.position = 'absolute';
+      piece.style.width = (Math.random() * 12 + 6) + 'px';
+      piece.style.height = (Math.random() * 12 + 6) + 'px';
+      piece.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+      piece.style.left = (Math.random() * 100) + 'vw';
+      piece.style.top = '-20px';
+      piece.style.borderRadius = Math.random() > 0.5 ? '50%' : '3px';
+      piece.style.opacity = '1';
+      piece.style.transform = 'rotate(' + (Math.random() * 360) + 'deg)';
+      piece.style.transition = 'transform 2.5s ease-out, top 2.5s ease-out, opacity 2.5s ease-out';
+      container.appendChild(piece);
+
+      setTimeout(() => {
+        piece.style.top = (Math.random() * 70 + 30) + 'vh';
+        piece.style.transform = 'rotate(' + (Math.random() * 720) + 'deg)';
+        piece.style.opacity = '0';
+      }, 50);
+
+      setTimeout(() => piece.remove(), 2600);
+    }
+  }
+
+  document.getElementById('sparkle-btn').addEventListener('click', () => {
+    incrementStars(5);
+    launchConfetti();
+    playSpeech('Sparkle magic star collected!');
+  });
+</script></main><footer class="w-full bg-surface-container-low py-space-2xl"><div class="max-w-[1200px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop flex flex-col md:flex-row items-center justify-between gap-space-md text-center md:text-left"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary">WonderABC</span><span class="font-body-sm text-body-sm text-on-surface-variant">• Playful Curiosity Academy</span></div><div class="font-body-sm text-body-sm text-on-surface-variant">© 2025 WonderABC Kids Safari. Cheerful Adventures in Phonics!</div></div></footer></body></html>
